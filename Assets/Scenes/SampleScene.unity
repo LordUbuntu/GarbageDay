@@ -220,6 +220,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3471608461729022389, guid: e62d8448d8410c0489b50fb4be8e89d1, type: 3}
   m_PrefabInstance: {fileID: 5657838901244287079}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1747431439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747431438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2eb332586ebf55429c4ca6c64702b4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2668256563420386861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -232,6 +244,10 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 1747431438}
+    - target: {fileID: 3778439226838558422, guid: 42e86050ad925c1419f6bca5f7dfeb84, type: 3}
+      propertyPath: spawnInterval
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8026670448543878476, guid: 42e86050ad925c1419f6bca5f7dfeb84, type: 3}
       propertyPath: m_Name
       value: EnemySpawner
@@ -336,7 +352,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3471608461729022389, guid: e62d8448d8410c0489b50fb4be8e89d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1747431439}
   m_SourcePrefab: {fileID: 100100000, guid: e62d8448d8410c0489b50fb4be8e89d1, type: 3}
 --- !u!1001 &9062900745433619530
 PrefabInstance:
